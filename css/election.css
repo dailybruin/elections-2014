@@ -52,6 +52,9 @@ margin-bottom: 15px;
   float: left;
 }
 
+.candidates_title{
+    font-style:bold;
+}
 #_vit
 {
   width:435px ;
@@ -94,4 +97,59 @@ font-style: italic;
 footer #footer-nav {
 font-size: 15px;
 margin-top: 46px;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: #fff;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    display: inline-block;
+}
+
+.propNo {
+border-color: #750a0a;
+color: #750a0a;
+}
+.propBubble {
+font-family: "BebasNeueRegular";
+font-size: 33px;
+display: block;
+border: 3px solid #AAA;
+padding: 15px;
+border-radius: 38px;
+width: 10px;
+height: 10px;
+line-height: 15px;
+color: #AAA;
+float: left;
+}
+
+.propNum {
+position: relative;
+left: -7px;
+}
+
+.propNo {
+border-color: #750a0a;
+color: #750a0a;
+}
+.propBubble {
+font-family: "BebasNeueRegular";
+font-size: 20px;
+display: block;
+border: 3px solid #AAA;
+padding: 15px;
+border-radius: 38px;
+width: 10px;
+height: 10px;
+line-height: 15px;
+color: #AAA;
+float: left;
 }
