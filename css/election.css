@@ -64,6 +64,18 @@ row{
   float:left;
 }
 
+.table_right_title{
+  font-weight: bold;
+}
+
+.candidates_title{
+  font-weight: bold;
+}
+
+.nav{
+  font-size:10pt;
+}
+
 footer {
 background-color: #eaeaea ;
 border-top: 1px solid #b6b6b6;
