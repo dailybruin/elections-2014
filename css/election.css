@@ -12,10 +12,19 @@ body{
 }
 
 a{
-  color: black;
+  color: black !important;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+a:hover {
+color: #005580;
+text-decoration: underline;
+}
+
+p {
+font-family: "Georgia", Helvetica, Arial, serif;
+margin-bottom: 15px;
+}
 
 .container {
   margin-right: auto;
@@ -49,4 +58,25 @@ a{
   height:465px ;
   padding: 12 px;
 
+}
+
+
+footer {
+background-color: #eaeaea ;
+border-top: 1px solid #b6b6b6;
+box-shadow: 0 0 6px rgba(0,0,0,0.2);
+height: 150px;
+display: block;
+margin-top: 20px;
+text-align: center;
+}
+
+footer #footer-copy {
+font-size: 10px;
+font-style: italic;
+}
+
+footer #footer-nav {
+font-size: 15px;
+margin-top: 46px;
 }
