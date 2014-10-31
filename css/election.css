@@ -1,3 +1,6 @@
+body{
+  background-color: ;
+}
 
 #banner-container{
   /*background-image:url(mugshots/electionbanner.png);*/
@@ -57,6 +60,9 @@ margin-bottom: 15px;
 
 }
 
+row{
+  float:left;
+}
 
 footer {
 background-color: #eaeaea ;
@@ -76,8 +82,4 @@ font-style: italic;
 footer #footer-nav {
 font-size: 15px;
 margin-top: 46px;
-}
-
-.text-responsive {
-		word-wrap: break-word;
 }
