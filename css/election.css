@@ -3,7 +3,8 @@ body{
 }
 
 #banner-container{
-  background-image:url(http://www.hcpress.com/img/ELECTION-2014-banner10.jpg);
+  /*background-image:url(mugshots/electionbanner.png);*/
+  background-image:url('../mugshots/electionbanner.png');
   height: 150px;
   /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: white;
