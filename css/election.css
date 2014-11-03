@@ -239,3 +239,7 @@ width: 100%;
   background-color: white !important;
   border-color: white !important;
 }
+
+.propositions {
+  text-align:center; 
+}
