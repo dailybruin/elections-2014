@@ -224,6 +224,18 @@ width: 100%;
 }
 
 .panel{
-  background-color: #87CEEB !important; 
+  background-color: #87CEEB !important;
   opacity:0.9;
+}
+
+.endorseProp{
+  height:312px;
+  width:290px;
+  font-size: 200px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: white !important;
+  border-color: white !important;
 }
