@@ -4,9 +4,10 @@
   <head>
      <meta charset="utf-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
+     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/election.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- // <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
@@ -14,11 +15,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
     <!-- bootflap -->
-    <link rel="shortcut icon" href="favicon_16.ico"/>
-    <link rel="bookmark" href="favicon_16.ico"/>
+
     <!-- site css -->
     <link rel="stylesheet" href="css/site.css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
+    <!-- <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css"> -->
     <!-- <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'> -->
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
@@ -26,16 +26,19 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
     <script type="text/javascript" src="js/site.min.js"></script>
+    <!-- // <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+
+
     <!-- Latest compiled and minified JavaScript -->
     <!-- -->
 
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- //  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
 
-    <script type="text/javascript" src="https://voter-info-tool.appspot.com/js/loader.js"></script>
-
-    <script type="text/javascript" src="https://voter-info-tool.appspot.com/js/loader.js"></script>
+    <!-- // <script type="text/javascript" src="https://voter-info-tool.appspot.com/js/loader.js"></script>
+    //
+    // <script type="text/javascript" src="https://voter-info-tool.appspot.com/js/loader.js"></script> -->
 
     <title>Elections 2014 | Daily Bruin</title>
   </head>
@@ -89,18 +92,25 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <!-- Tentative Tabs: Congress, State Senate, LA County Supervisor, Propositions, Results, Where to Vote-->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">GOVERNOR</a></li>
-        <li><a href="usrep.html">CONGRESS</a></li>
-        <li><a href="statesenate.html">STATE SENATE</a></li>
-        <li><a href="countysupervisor.html">LA COUNTY SUPERVISOR</a></li>
-        <li><a href="stateassembly.html">STATE ASSEMBLY</a></li>
-        <li><a href="propositions.html">PROPOSITIONS</a></li>
-        <!-- <li><a href="#">RESULTS</a></li> -->
-        <li class="active"><a href="endorsements.html">ENDORSEMENTS</a></li>
-        <li><a href="results.html">RESULTS</a></li>
-        <li><a href="whereToVote.html">WHERE TO VOTE</a></li>
-      </ul>
+<ul class="nav navbar-nav">
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">CANDIDATES <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="index.html">GOVERNOR</a></li>
+          <li><a href="usrep.html">CONGRESS</a></li>
+          <li><a href="statesenate.html">STATE SENATE</a></li>
+          <li><a href="countysupervisor.html">LA COUNTY SUPERVISOR</a></li>
+          <li><a href="stateassembly.html">STATE ASSEMBLY</a></li>
+        </ul>
+    </li>
+    <li><a href="propositions.html">PROPOSITIONS</a></li>
+    <li class="active"><a href="endorsements.html">ENDORSEMENTS</a></li>
+    <!-- <li><a href="results.html">RESULTS</a></li> -->
+    <li><a href="#">RESULTS</a></li>
+    <li><a href="whereToVote.html">WHERE TO VOTE</a></li>
+    </ul>
+</li>
+</ul>
       <!-- <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
@@ -111,10 +121,216 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+<body>
+<div class="container" style="position:relative;">
 
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+  <div class="thumbnail">
 
+      <div class="candidates_title" style="text-align:center"><h1 class="endorse_place">Governer</h1></div>
 
-<div class="container">
-  <p class="navbar-text col-md-8 col-md-offset-3"><a class="coloredlink" href="index.html">Elections 2014</a>  |  <a href="http://dailybruin.com/">Home</a>  |  <a href="http://dailybruin.com/news">News</a>  |  <a href="http://dailybruin.com/sports">Sports</a>  |  <a href="http://dailybruin.com/ae">A&amp;E</a>  |  <a href="http://dailybruin.com/opinion">Opinion</a></p>
-  <p class="navbar-text col-md-8 col-md-offset-3">Site created by Li-Wei Tseng, Rakshit Garg, Katie Shephard. Content ©2014 The Daily Bruin.</p>
+          <table class="table table-striped tableEndorsement">
+              <tr>
+                <td><a href="#" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#Governor"><img
+                  src="330x355/governorbrown copy.png"/></a>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <h3 class="endorse_place">Jerry Brown</h4>
+                </td>
+              </tr>
+          </table>
+      </div>
 </div>
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+  <div class="thumbnail">
+
+      <div class="candidates_title" style="text-align:center"><h1 class="endorse_place">Governer</h1></div>
+
+          <table class="table table-striped tableEndorsement">
+              <tr>
+                <td><a href="#" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#largeModal"><img
+                  src="330x355/governorbrown copy.png"/></a>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <h3 class="endorse_place">Jerry Brown</h4>
+                </td>
+              </tr>
+          </table>
+      </div>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+  <div class="thumbnail">
+
+      <div class="candidates_title" style="text-align:center"><h1 class="endorse_place">Governer</h1></div>
+
+          <table class="table table-striped tableEndorsement">
+              <tr>
+                <td><a href="#" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#largeModal"><img
+                  src="330x355/governorbrown copy.png"/></a>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <h3 class="endorse_place">Jerry Brown</h4>
+                </td>
+              </tr>
+          </table>
+      </div>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+  <div class="thumbnail">
+
+      <div class="candidates_title" style="text-align:center"><h1 class="endorse_place">Governer</h1></div>
+
+          <table class="table table-striped tableEndorsement">
+              <tr>
+                <td><a href="#" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#largeModal"><img
+                  src="330x355/governorbrown copy.png"/></a>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <h3 class="endorse_place">Jerry Brown</h4>
+                </td>
+              </tr>
+          </table>
+      </div>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+  <div class="thumbnail">
+
+      <div class="candidates_title" style="text-align:center"><h1 class="endorse_place">Governer</h1></div>
+
+          <table class="table table-striped tableEndorsement">
+              <tr>
+                <td><a href="#" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#largeModal"><img
+                  src="330x355/governorbrown copy.png"/></a>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <h3 class="endorse_place">Jerry Brown</h4>
+                </td>
+              </tr>
+          </table>
+      </div>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+  <div class="thumbnail">
+
+      <div class="candidates_title" style="text-align:center"><h1 class="endorse_place">Governer</h1></div>
+
+          <table class="table table-striped tableEndorsement">
+              <tr>
+                <td><a href="#" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#largeModal"><img
+                  src="330x355/governorbrown copy.png"/></a>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <h3 class="endorse_place">Jerry Brown</h4>
+                </td>
+              </tr>
+          </table>
+      </div>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+  <div class="thumbnail">
+
+      <div class="candidates_title" style="text-align:center"><h1 class="endorse_place">Governer</h1></div>
+
+          <table class="table table-striped tableEndorsement">
+              <tr>
+                <td><a href="#" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#largeModal"><img
+                  src="330x355/governorbrown copy.png"/></a>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <h3 class="endorse_place">Jerry Brown</h4>
+                </td>
+              </tr>
+          </table>
+      </div>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+  <div class="thumbnail">
+
+      <div class="candidates_title" style="text-align:center"><h1 class="endorse_place">Governer</h1></div>
+
+          <table class="table table-striped tableEndorsement">
+              <tr>
+                <td><a href="#" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#largeModal"><img
+                  src="330x355/governorbrown copy.png"/></a>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <h3 class="endorse_place">Jerry Brown</h4>
+                </td>
+              </tr>
+          </table>
+      </div>
+</div>
+</div><!--.container-->
+
+
+<!-- modal -->
+
+<!-- Governor Modal -->
+<div class="modal fade" id="Governor" tabindex="-1" role="dialog" aria-labelledby="Governor" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <!-- <img src="330x355/governorbrown copy.png" class="modal-thumb"> -->
+            <h1 class="modal-title defineTitle">Jerry Brown</h1>
+          </div>
+          <div class="modal-body">
+            <p>Something....</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- Governor Modal End-->
+
+<div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h1 class="modal-title defineTitle">Jerry Brown</h1>
+          </div>
+          <div class="modal-body">
+            <p>Something....</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+</body>
+
+<footer>
+<p id="footer-nav"><a class="coloredlink" href="index.html">Elections 2014</a>  |  <a href="http://dailybruin.com/">Home</a>  |  <a href="http://dailybruin.com/news">News</a>  |  <a href="http://dailybruin.com/sports">Sports</a>  |  <a href="http://dailybruin.com/ae">A&amp;E</a>  |  <a href="http://dailybruin.com/opinion">Opinion</a></p>
+<p id="footer-copy">Site by Li-Wei Tseng and Rakshit Garg. Content © 2014 the Daily Bruin.</p>
+</footer>
+
+</html>

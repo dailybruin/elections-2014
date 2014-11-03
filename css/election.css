@@ -6,6 +6,7 @@ body{
   /*background-image:url(mugshots/electionbanner.png);*/
   background-image:url('../mugshots/electionbanner.png');
   height: 150px;
+  width: 818px;
   /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: white;
   decoration: none;*/
@@ -152,4 +153,77 @@ height: 10px;
 line-height: 15px;
 color: #AAA;
 float: left;
+}
+
+.candidate1Div{
+  margin-left:15%;
+}
+
+.accordionBoth{
+  margin-top:1%;
+}
+
+.accordionFirst{
+  margin-left:15%;
+}
+
+.accordionSecond{
+
+}
+
+/*.bannerImg{
+  margin-left:13%;
+  width: 944px;
+  height: 150px
+}*/
+
+.navbar-nav{
+  font-size:medium;
+  margin-left:19% !important;
+}
+
+.tableEndorsement{
+  text-align:center;
+}
+
+.table{
+  margin-bottom: 0px !important;
+}
+
+
+.endorse_place{
+  margin-top:0%;
+  margin-bottom:0%;
+
+}
+
+.modal-thumb {
+opacity: 1;
+float: left;
+display: inline-block;
+width: 100px;
+margin: 5px 0 5px 15px;
+}
+
+.modal-header{
+  text-align:center;
+}
+
+.defineTitle {
+text-align:center;
+font-size: 1.5em;
+font-family: 'Roboto Slab', serif;
+color: #34495e;
+vertical-align: middle;
+display: inline;
+width: 100%;
+}
+
+.tab{
+  padding: 0 35px;
+}
+
+.panel{
+  background-color: #87CEEB !important; 
+  opacity:0.9;
 }
