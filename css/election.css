@@ -220,7 +220,9 @@ width: 100%;
 }
 
 .tab{
+  display:inline-block; 
 padding-left: 35px;
+margin-left: 1em;
 }
 
 .panel{
@@ -241,5 +243,5 @@ padding-left: 35px;
 }
 
 .propositions {
-  text-align:center; 
+  text-align:center;
 }
