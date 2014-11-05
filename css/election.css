@@ -248,3 +248,17 @@ margin-left: 0.6em;
 .propositions {
   text-align:center;
 }
+.candidates{
+  border: 1px solid #ddd;
+  text-align: center;
+
+}
+.propositions h3{
+  border: 1px solid #ddd;
+}
+.passed {
+  color: #0a750e;
+}
+.failed {
+  color:#750a0a;
+}
