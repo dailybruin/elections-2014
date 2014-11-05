@@ -262,3 +262,7 @@ margin-left: 0.6em;
 .failed {
   color:#750a0a;
 }
+.thumbnail a > img {
+  width: 290px;
+}
+
