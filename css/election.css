@@ -255,9 +255,12 @@ margin-left: 0.6em;
 }
 .propositions h3{
   border: 1px solid #ddd;
+  font-size: 30px;
 }
 .passed {
   color: #0a750e;
+
+
 }
 .failed {
   color:#750a0a;
