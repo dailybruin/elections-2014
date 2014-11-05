@@ -206,7 +206,11 @@ margin: 5px 0 5px 15px;
 }
 
 .modal-header{
-  text-align:center;
+  text-align:center
+  font
+}
+.modal-body{
+  font-size: 15px;
 }
 
 .defineTitle {
