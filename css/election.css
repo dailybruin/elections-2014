@@ -268,4 +268,10 @@ margin-left: 0.6em;
 .thumbnail a > img {
   width: 290px;
 }
+.propositions a:hover{
+  text-decoration: none;
+}
+.row a:hover{
+  text-decoration: none;
+}
 
